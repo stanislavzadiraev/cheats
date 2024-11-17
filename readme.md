@@ -30,7 +30,16 @@ wsl --terminate, -t DISTRO # остановка
 git config --global user.name "NAME"
 git config --global user.email "EMAIL"
 ```
----
+## Ubuntu
+настройка:
+```console
+adduser USERNAME
+usermod --append --groups sudo USERNAME
+```
+```console
+apt update
+apt install snapd
+```
 ## Docker
 установка:
 ```console
