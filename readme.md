@@ -24,12 +24,6 @@ wsl --unregister DISTRO # удаление
 wsl --distribution, -d DISTRO # запуск
 wsl --terminate, -t DISTRO # остановка
 ```
-## Git
-настройка:
-```console
-git config --global user.name "NAME"
-git config --global user.email "EMAIL"
-```
 ## Ubuntu
 настройка:
 ```console
@@ -39,6 +33,12 @@ usermod --append --groups sudo USERNAME
 ```console
 apt update
 apt install snapd
+```
+## Git
+настройка:
+```console
+git config --global user.name "NAME"
+git config --global user.email "EMAIL"
 ```
 ## Docker
 установка:
